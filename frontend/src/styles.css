@@ -1,0 +1,13 @@
+:root { color-scheme: dark; font-family: system-ui, sans-serif; }
+body { margin: 0; background: #111; color: #fff; }
+main { max-width: 720px; margin: 0 auto; padding: 1rem; }
+.stage { position: relative; }
+.stage video, .stage canvas { width: 100%; border-radius: 12px; transform: scaleX(-1); }
+.stage canvas { position: absolute; inset: 0; height: 100%; }
+button, input { font-size: 1.1rem; padding: .6rem 1rem; border-radius: 8px; border: 2px solid #555; background: #222; color: #fff; }
+button { cursor: pointer; } button:hover { border-color: #ffd400; }
+button.on { background: #ffd400; color: #000; } button.rec { background: #c00; }
+.tabs, .row { display: flex; gap: .5rem; flex-wrap: wrap; margin: .75rem 0; }
+.live { color: #ffd400; font-size: 1.2rem; }
+.out { font-size: 2rem; min-height: 3rem; word-break: break-word; }
+.refined { color: #7dffa0; }
